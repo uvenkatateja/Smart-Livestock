@@ -25,8 +25,8 @@ const Login = () => {
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-md p-8">
         <div className="flex flex-col items-center mb-8">
           <Beef className="w-16 h-16 text-green-600 mb-4" />
-          <h1 className="text-3xl font-bold text-gray-800">Cattle Monitor</h1>
-          <p className="text-gray-600 mt-2">Monitoring System Login</p>
+          <h1 className="text-3xl font-bold text-gray-800">Cattle Monitoring</h1>
+          <p className="text-gray-600 mt-2">LOGIN</p>
         </div>
 
         {error && (
@@ -73,7 +73,9 @@ const Login = () => {
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-6">
-          Demo credentials: owner@farm.com / password
+          Demo credentials:
+          Email - owner@farm.com ,
+          password - password
         </p>
       </div>
     </div>
